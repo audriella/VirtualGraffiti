@@ -1,0 +1,64 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "ff4044901d3b9732cb97f6d27c5522572a19171e734f69d854d3eb33ec82433c"
+    },
+    {
+      "guid" : "ff4044901d3b9732cb97f6d27c552257ce37a616ac12fa1eaf269c499a22273c"
+    },
+    {
+      "guid" : "ff4044901d3b9732cb97f6d27c55225708796681c5296accc7693dd503c88e4d"
+    }
+  ],
+  "containerPath" : "/Users/audriellaruthjim/Desktop/ADA_Programming/Nano2/Nano2.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator16.4",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/audriellaruthjim/Desktop/ADA_Programming/Nano2/DerivedData/Nano2/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/audriellaruthjim/Desktop/ADA_Programming/Nano2/DerivedData/Nano2/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/audriellaruthjim/Desktop/ADA_Programming/Nano2/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/audriellaruthjim/Desktop/ADA_Programming/Nano2/DerivedData/Nano2/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/audriellaruthjim/Desktop/ADA_Programming/Nano2/DerivedData/Nano2/Index.noindex/PrecompiledHeaders",
+      "indexRegularBuildIntermediatesPath" : "/Users/audriellaruthjim/Desktop/ADA_Programming/Nano2/DerivedData/Nano2/Build/Intermediates.noindex",
+      "indexRegularBuildProductsPath" : "/Users/audriellaruthjim/Desktop/ADA_Programming/Nano2/DerivedData/Nano2/Build/Products",
+      "pchPath" : "/Users/audriellaruthjim/Desktop/ADA_Programming/Nano2/DerivedData/Nano2/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

@@ -1,0 +1,13 @@
+Target dependency graph (8 targets)
+Nano2 in Nano2, no dependencies
+Nano2 in Nano2, no dependencies
+Nano2Tests in Nano2, depends on:
+Nano2 in Nano2 (explicit)
+Nano2Tests in Nano2, depends on:
+Nano2 in Nano2 (explicit)
+Nano2Tests in Nano2, no dependencies
+Nano2UITests in Nano2, depends on:
+Nano2 in Nano2 (explicit)
+Nano2UITests in Nano2, depends on:
+Nano2 in Nano2 (explicit)
+Nano2UITests in Nano2, no dependencies

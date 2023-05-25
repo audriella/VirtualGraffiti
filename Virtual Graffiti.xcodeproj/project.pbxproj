@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF2124D92A1931A10044A88E /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF2124D82A1931A10044A88E /* ARKit.framework */; };
+		EF2124DB2A1931A80044A88E /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF2124DA2A1931A80044A88E /* SceneKit.framework */; };
+		EF2124DD2A1931B30044A88E /* RealityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF2124DC2A1931B30044A88E /* RealityKit.framework */; };
+		EF36F2E72A1A63D700F19496 /* RemoveButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF36F2E62A1A63D700F19496 /* RemoveButtonView.swift */; };
+		EF36F2E92A1A641A00F19496 /* SaveButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF36F2E82A1A641A00F19496 /* SaveButtonView.swift */; };
+		EF36F2EB2A1A642B00F19496 /* AddButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF36F2EA2A1A642B00F19496 /* AddButtonView.swift */; };
+		EF4B0D7F2A13A6C700178940 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4B0D7E2A13A6C700178940 /* AppDelegate.swift */; };
+		EF4B0D812A13A6C700178940 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4B0D802A13A6C700178940 /* ContentView.swift */; };
+		EF4B0D832A13A6C700178940 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = EF4B0D822A13A6C700178940 /* Experience.rcproject */; };
+		EF4B0D922A13A6C800178940 /* Nano2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4B0D912A13A6C800178940 /* Nano2Tests.swift */; };
+		EF4B0D9C2A13A6C800178940 /* Nano2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4B0D9B2A13A6C800178940 /* Nano2UITests.swift */; };
+		EF4B0D9E2A13A6C800178940 /* Nano2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4B0D9D2A13A6C800178940 /* Nano2UITestsLaunchTests.swift */; };
+		EF4B0DAB2A13A7BA00178940 /* ARModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4B0DAA2A13A7BA00178940 /* ARModel.swift */; };
+		EF4B0DB12A13A9D700178940 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4B0DB02A13A9D700178940 /* ARViewContainer.swift */; };
+		EF4B0DB72A14D71A00178940 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4B0DB62A14D71A00178940 /* ImagePicker.swift */; };
+		EF4B0DC02A1728CE00178940 /* GetImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4B0DBF2A1728CE00178940 /* GetImageView.swift */; };
+		EFD52FE22A1F761600478181 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD52FE12A1F761600478181 /* Assets.xcassets */; };
+		EFE1C7B72A1A74BA0011C2CE /* CameraButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE1C7B62A1A74BA0011C2CE /* CameraButtonView.swift */; };
+		EFE43C622A1C5FBD00D4BDA5 /* ARViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE43C612A1C5FBD00D4BDA5 /* ARViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF4B0D8E2A13A6C800178940 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF4B0D732A13A6C700178940 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF4B0D7A2A13A6C700178940;
+			remoteInfo = Nano2;
+		};
+		EF4B0D982A13A6C800178940 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF4B0D732A13A6C700178940 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF4B0D7A2A13A6C700178940;
+			remoteInfo = Nano2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF2124D82A1931A10044A88E /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
+		EF2124DA2A1931A80044A88E /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		EF2124DC2A1931B30044A88E /* RealityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealityKit.framework; path = System/Library/Frameworks/RealityKit.framework; sourceTree = SDKROOT; };
+		EF36F2E62A1A63D700F19496 /* RemoveButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveButtonView.swift; sourceTree = "<group>"; };
+		EF36F2E82A1A641A00F19496 /* SaveButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveButtonView.swift; sourceTree = "<group>"; };
+		EF36F2EA2A1A642B00F19496 /* AddButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButtonView.swift; sourceTree = "<group>"; };
+		EF4B0D7B2A13A6C700178940 /* Virtual Graffiti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Virtual Graffiti.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4B0D7E2A13A6C700178940 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF4B0D802A13A6C700178940 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF4B0D822A13A6C700178940 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		EF4B0D8D2A13A6C800178940 /* Virtual GraffitiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Virtual GraffitiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4B0D912A13A6C800178940 /* Nano2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nano2Tests.swift; sourceTree = "<group>"; };
+		EF4B0D972A13A6C800178940 /* Virtual GraffitiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Virtual GraffitiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4B0D9B2A13A6C800178940 /* Nano2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nano2UITests.swift; sourceTree = "<group>"; };
+		EF4B0D9D2A13A6C800178940 /* Nano2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nano2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EF4B0DAA2A13A7BA00178940 /* ARModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARModel.swift; sourceTree = "<group>"; };
+		EF4B0DB02A13A9D700178940 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		EF4B0DB62A14D71A00178940 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		EF4B0DBF2A1728CE00178940 /* GetImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetImageView.swift; sourceTree = "<group>"; };
+		EFD52FE12A1F761600478181 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFE1C7B62A1A74BA0011C2CE /* CameraButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraButtonView.swift; sourceTree = "<group>"; };
+		EFE43C612A1C5FBD00D4BDA5 /* ARViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF4B0D782A13A6C700178940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2124DD2A1931B30044A88E /* RealityKit.framework in Frameworks */,
+				EF2124DB2A1931A80044A88E /* SceneKit.framework in Frameworks */,
+				EF2124D92A1931A10044A88E /* ARKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4B0D8A2A13A6C800178940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4B0D942A13A6C800178940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF2124D72A1931A10044A88E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF2124DC2A1931B30044A88E /* RealityKit.framework */,
+				EF2124DA2A1931A80044A88E /* SceneKit.framework */,
+				EF2124D82A1931A10044A88E /* ARKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF4B0D722A13A6C700178940 = {
+			isa = PBXGroup;
+			children = (
+				EF4B0DB22A1472CC00178940 /* ARKit */,
+				EF4B0DBA2A17281D00178940 /* Models */,
+				EF4B0DBD2A17284C00178940 /* ViewModels */,
+				EF4B0DBC2A17284100178940 /* Views */,
+				EF4B0DBE2A17286300178940 /* Services */,
+				EF4B0D7D2A13A6C700178940 /* Nano2 */,
+				EF4B0D902A13A6C800178940 /* Nano2Tests */,
+				EF4B0D9A2A13A6C800178940 /* Nano2UITests */,
+				EF4B0D7C2A13A6C700178940 /* Products */,
+				EF2124D72A1931A10044A88E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF4B0D7C2A13A6C700178940 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF4B0D7B2A13A6C700178940 /* Virtual Graffiti.app */,
+				EF4B0D8D2A13A6C800178940 /* Virtual GraffitiTests.xctest */,
+				EF4B0D972A13A6C800178940 /* Virtual GraffitiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF4B0D7D2A13A6C700178940 /* Nano2 */ = {
+			isa = PBXGroup;
+			children = (
+				EF4B0D862A13A6C800178940 /* Preview Content */,
+				EF4B0D7E2A13A6C700178940 /* AppDelegate.swift */,
+				EF4B0D802A13A6C700178940 /* ContentView.swift */,
+				EF4B0D822A13A6C700178940 /* Experience.rcproject */,
+				EFD52FE12A1F761600478181 /* Assets.xcassets */,
+			);
+			path = Nano2;
+			sourceTree = "<group>";
+		};
+		EF4B0D862A13A6C800178940 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF4B0D902A13A6C800178940 /* Nano2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4B0D912A13A6C800178940 /* Nano2Tests.swift */,
+			);
+			path = Nano2Tests;
+			sourceTree = "<group>";
+		};
+		EF4B0D9A2A13A6C800178940 /* Nano2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4B0D9B2A13A6C800178940 /* Nano2UITests.swift */,
+				EF4B0D9D2A13A6C800178940 /* Nano2UITestsLaunchTests.swift */,
+			);
+			path = Nano2UITests;
+			sourceTree = "<group>";
+		};
+		EF4B0DB22A1472CC00178940 /* ARKit */ = {
+			isa = PBXGroup;
+			children = (
+				EF4B0DB02A13A9D700178940 /* ARViewContainer.swift */,
+			);
+			path = ARKit;
+			sourceTree = "<group>";
+		};
+		EF4B0DBA2A17281D00178940 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF4B0DAA2A13A7BA00178940 /* ARModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EF4B0DBC2A17284100178940 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF4B0DB62A14D71A00178940 /* ImagePicker.swift */,
+				EF4B0DBF2A1728CE00178940 /* GetImageView.swift */,
+				EF36F2E62A1A63D700F19496 /* RemoveButtonView.swift */,
+				EF36F2E82A1A641A00F19496 /* SaveButtonView.swift */,
+				EF36F2EA2A1A642B00F19496 /* AddButtonView.swift */,
+				EFE1C7B62A1A74BA0011C2CE /* CameraButtonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EF4B0DBD2A17284C00178940 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EFE43C612A1C5FBD00D4BDA5 /* ARViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EF4B0DBE2A17286300178940 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF4B0D7A2A13A6C700178940 /* Virtual Graffiti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4B0DA12A13A6C800178940 /* Build configuration list for PBXNativeTarget "Virtual Graffiti" */;
+			buildPhases = (
+				EF4B0D772A13A6C700178940 /* Sources */,
+				EF4B0D782A13A6C700178940 /* Frameworks */,
+				EF4B0D792A13A6C700178940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Virtual Graffiti";
+			productName = Nano2;
+			productReference = EF4B0D7B2A13A6C700178940 /* Virtual Graffiti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF4B0D8C2A13A6C800178940 /* Virtual GraffitiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4B0DA42A13A6C800178940 /* Build configuration list for PBXNativeTarget "Virtual GraffitiTests" */;
+			buildPhases = (
+				EF4B0D892A13A6C800178940 /* Sources */,
+				EF4B0D8A2A13A6C800178940 /* Frameworks */,
+				EF4B0D8B2A13A6C800178940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4B0D8F2A13A6C800178940 /* PBXTargetDependency */,
+			);
+			name = "Virtual GraffitiTests";
+			productName = Nano2Tests;
+			productReference = EF4B0D8D2A13A6C800178940 /* Virtual GraffitiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF4B0D962A13A6C800178940 /* Virtual GraffitiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4B0DA72A13A6C800178940 /* Build configuration list for PBXNativeTarget "Virtual GraffitiUITests" */;
+			buildPhases = (
+				EF4B0D932A13A6C800178940 /* Sources */,
+				EF4B0D942A13A6C800178940 /* Frameworks */,
+				EF4B0D952A13A6C800178940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4B0D992A13A6C800178940 /* PBXTargetDependency */,
+			);
+			name = "Virtual GraffitiUITests";
+			productName = Nano2UITests;
+			productReference = EF4B0D972A13A6C800178940 /* Virtual GraffitiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF4B0D732A13A6C700178940 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EF4B0D7A2A13A6C700178940 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					EF4B0D8C2A13A6C800178940 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = EF4B0D7A2A13A6C700178940;
+					};
+					EF4B0D962A13A6C800178940 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = EF4B0D7A2A13A6C700178940;
+					};
+				};
+			};
+			buildConfigurationList = EF4B0D762A13A6C700178940 /* Build configuration list for PBXProject "Virtual Graffiti" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF4B0D722A13A6C700178940;
+			productRefGroup = EF4B0D7C2A13A6C700178940 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF4B0D7A2A13A6C700178940 /* Virtual Graffiti */,
+				EF4B0D8C2A13A6C800178940 /* Virtual GraffitiTests */,
+				EF4B0D962A13A6C800178940 /* Virtual GraffitiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF4B0D792A13A6C700178940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD52FE22A1F761600478181 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4B0D8B2A13A6C800178940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4B0D952A13A6C800178940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF4B0D772A13A6C700178940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF36F2E72A1A63D700F19496 /* RemoveButtonView.swift in Sources */,
+				EF4B0DC02A1728CE00178940 /* GetImageView.swift in Sources */,
+				EFE43C622A1C5FBD00D4BDA5 /* ARViewModel.swift in Sources */,
+				EFE1C7B72A1A74BA0011C2CE /* CameraButtonView.swift in Sources */,
+				EF4B0DAB2A13A7BA00178940 /* ARModel.swift in Sources */,
+				EF36F2E92A1A641A00F19496 /* SaveButtonView.swift in Sources */,
+				EF4B0D812A13A6C700178940 /* ContentView.swift in Sources */,
+				EF4B0DB72A14D71A00178940 /* ImagePicker.swift in Sources */,
+				EF4B0D7F2A13A6C700178940 /* AppDelegate.swift in Sources */,
+				EF4B0D832A13A6C700178940 /* Experience.rcproject in Sources */,
+				EF36F2EB2A1A642B00F19496 /* AddButtonView.swift in Sources */,
+				EF4B0DB12A13A9D700178940 /* ARViewContainer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4B0D892A13A6C800178940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4B0D922A13A6C800178940 /* Nano2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4B0D932A13A6C800178940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4B0D9C2A13A6C800178940 /* Nano2UITests.swift in Sources */,
+				EF4B0D9E2A13A6C800178940 /* Nano2UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF4B0D8F2A13A6C800178940 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF4B0D7A2A13A6C700178940 /* Virtual Graffiti */;
+			targetProxy = EF4B0D8E2A13A6C800178940 /* PBXContainerItemProxy */;
+		};
+		EF4B0D992A13A6C800178940 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF4B0D7A2A13A6C700178940 /* Virtual Graffiti */;
+			targetProxy = EF4B0D982A13A6C800178940 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EF4B0D9F2A13A6C800178940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF4B0DA02A13A6C800178940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF4B0DA22A13A6C800178940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nano2/Preview Content\"";
+				DEVELOPMENT_TEAM = A6H768JYZ8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Required to save AR Pictures in Photo Library";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADA.Nano2.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF4B0DA32A13A6C800178940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nano2/Preview Content\"";
+				DEVELOPMENT_TEAM = A6H768JYZ8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Required to save AR Pictures in Photo Library";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADA.Nano2.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF4B0DA52A13A6C800178940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADA.Nano2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Virtual Graffiti.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Virtual Graffiti";
+			};
+			name = Debug;
+		};
+		EF4B0DA62A13A6C800178940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADA.Nano2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Virtual Graffiti.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Virtual Graffiti";
+			};
+			name = Release;
+		};
+		EF4B0DA82A13A6C800178940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADA.Nano2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nano2;
+			};
+			name = Debug;
+		};
+		EF4B0DA92A13A6C800178940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADA.Nano2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nano2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF4B0D762A13A6C700178940 /* Build configuration list for PBXProject "Virtual Graffiti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4B0D9F2A13A6C800178940 /* Debug */,
+				EF4B0DA02A13A6C800178940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4B0DA12A13A6C800178940 /* Build configuration list for PBXNativeTarget "Virtual Graffiti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4B0DA22A13A6C800178940 /* Debug */,
+				EF4B0DA32A13A6C800178940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4B0DA42A13A6C800178940 /* Build configuration list for PBXNativeTarget "Virtual GraffitiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4B0DA52A13A6C800178940 /* Debug */,
+				EF4B0DA62A13A6C800178940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4B0DA72A13A6C800178940 /* Build configuration list for PBXNativeTarget "Virtual GraffitiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4B0DA82A13A6C800178940 /* Debug */,
+				EF4B0DA92A13A6C800178940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF4B0D732A13A6C700178940 /* Project object */;
+}

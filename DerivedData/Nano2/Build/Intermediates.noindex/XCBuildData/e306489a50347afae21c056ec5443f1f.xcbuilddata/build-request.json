@@ -1,0 +1,62 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "ff4044901d3b9732cb97f6d27c5522572a19171e734f69d854d3eb33ec82433c"
+    }
+  ],
+  "containerPath" : "/Users/audriellaruthjim/Desktop/ADA_Programming/Nano2/Nano2.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator16.4",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/audriellaruthjim/Desktop/ADA_Programming/Nano2/DerivedData/Nano2/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/audriellaruthjim/Desktop/ADA_Programming/Nano2/DerivedData/Nano2/Build/Products",
+      "derivedDataPath" : "/Users/audriellaruthjim/Desktop/ADA_Programming/Nano2/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/audriellaruthjim/Desktop/ADA_Programming/Nano2/DerivedData/Nano2/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/audriellaruthjim/Desktop/ADA_Programming/Nano2/DerivedData/Nano2/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/audriellaruthjim/Desktop/ADA_Programming/Nano2/DerivedData/Nano2/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone14,7",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "16.4",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone14,7",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "918CAC3E-964C-4801-8583-1257E750AE94",
+          "TARGET_DEVICE_MODEL" : "iPhone14,7",
+          "TARGET_DEVICE_OS_VERSION" : "16.4",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
